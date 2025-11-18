@@ -1,8 +1,19 @@
 package com._GS2SEM.enchentes_api.services;
 
+import com._GS2SEM.enchentes_api.models.Controle;
+import com._GS2SEM.enchentes_api.repositories.ControleRepository;
+import org.springframework.stereotype.Service;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
 @Service
 public class ControleService {
-    @Autowired private ControleRepository repo;
+    private final ControleRepository repo;
+
+    public ControleService(ControleRepository repo) {
+        this.repo = repo;
+    }
 
     public Controle ativarBarreira() {
         Controle c = new Controle();

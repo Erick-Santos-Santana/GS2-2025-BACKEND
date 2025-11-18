@@ -1,8 +1,19 @@
 package com._GS2SEM.enchentes_api.services;
 
+import com._GS2SEM.enchentes_api.models.Alerta;
+import com._GS2SEM.enchentes_api.repositories.AlertaRepository;
+import org.springframework.stereotype.Service;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
 @Service
 public class AlertaService {
-    @Autowired private AlertaRepository repo;
+    private final AlertaRepository repo;
+
+    public AlertaService(AlertaRepository repo) {
+        this.repo = repo;
+    }
 
     public Alerta gerarAlerta(double nivelAgua) {
         String nivel;
@@ -30,4 +41,3 @@ public class AlertaService {
         return repo.findAll();
     }
 }
-
