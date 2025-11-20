@@ -1,7 +1,7 @@
-Grupo:
-Erick Santos Santana			RM: 559206
-Gabriel Trusnovec Mateus 		RM: 550873
-Otávio Antônio de Lima Kesan 		RM: 565830
+# Grupo:
+- Erick Santos Santana			      RM: 559206;
+- Gabriel Trusnovec Mateus 		    RM: 550873;
+- Otávio Antônio de Lima Kesan 		RM: 565830
 
 # 🌊 Enchentes API - Backend
 
