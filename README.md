@@ -102,14 +102,6 @@ com._GS2SEM.enchentes_api
 
 ---
 
-## 👥 Integrantes
-
-- Nome 1 - RM
-- Nome 2 - RM
-- Nome 3 - RM
-
----
-
 ## 📁 Entrega
 
 - Código-fonte completo
